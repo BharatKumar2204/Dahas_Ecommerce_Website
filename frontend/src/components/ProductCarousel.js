@@ -18,12 +18,12 @@ function ProductCarousel() {
   :error
   ? <Alert variant='danger'>{error}</Alert>
   :( 
-     <Carousel pause='hover' className='bg-dark'>
+     <Carousel pause='hover' className='bg-light'>
         {products.filter(product=>(product.category=='carousel')).map(product =>(
             <Carousel.Item key={product._id}>
                  
                     <Image src={product.image} className="d-block w-100" alt={product.name} fluid/>
-                    <Carousel.Caption className='carousel.caption'>
+                    <Carousel.Caption className='carousel.caption d-none'>
                         <h4>{product.name}</h4>
                     </Carousel.Caption>
                 

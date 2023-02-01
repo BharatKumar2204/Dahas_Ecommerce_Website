@@ -40,7 +40,7 @@ function Header() {
       
       
 </Nav>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" className='p-0'><i className='fas fa-search fa-xl'></i></Navbar.Toggle>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" className='px-0'><i className='fas fa-search fa-xl'></i></Navbar.Toggle>
   <Navbar.Collapse id="basic-navbar-nav" className=' justify-content-end ms-auto' >
     <Nav >
     <SearchBox/>

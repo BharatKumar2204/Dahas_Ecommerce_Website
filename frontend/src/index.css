@@ -57,13 +57,13 @@ h6{
 
 @media(min-width:766px){
 .carousel img{
-    height: 500px;
+    height: auto;
 }
 }
 
 @media(max-width:765px){
     .carousel img{
-        height: 300px;
+        height: auto;
     }
     .carousel-caption h4{
         font-size: 2.5vw;
