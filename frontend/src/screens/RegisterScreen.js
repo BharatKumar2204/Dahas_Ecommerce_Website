@@ -61,7 +61,7 @@ function RegisterScreen() {
           <Form.Label>
             Mobile Number
           </Form.Label>
-          <Form.Control required type='number' placeholder='Enter Mobile no.' max={10} value={phone} onChange={(e)=>setPhone(e.target.value)}></Form.Control>
+          <Form.Control required type='number' placeholder='Enter Mobile no.' value={phone} onChange={(e)=>setPhone(e.target.value)}></Form.Control>
         </Form.Group>
 
         <Form.Group controlId='password' className='mt-3'>
