@@ -31,7 +31,7 @@ function CartScreen({match,location,history}) {
           }
         
       
-      cartItems.map(item=>products.filter(prod=>item.product!=prod.id).map(prod=>dispatch(removeFromCart(item.product,item.size))))
+      //cartItems.map(item=>products.filter(prod=>item.product!=prod.id).map(prod=>dispatch(removeFromCart(item.product,item.size))))
       cartItems.map(item=>updateCartHandler(item.product,item.qty,item.size,item.countInStock) ) 
     },[dispatch,productId,qty,size,countInStock]) 
     const removeFromCartHandler=(id,size)=>{ 
