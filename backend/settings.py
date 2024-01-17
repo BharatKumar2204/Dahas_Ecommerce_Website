@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lft@6af4=*ql4s&h55kt54jo5wb!0cb^dg+ti#q%4-bp4%24se
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','dahas.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','dahas.up.railway.app','dahas-ecommerce.onrender.com']
 
 
 # Application definition
